@@ -22,4 +22,7 @@ html,body{
     transform: unset;
   }
   
-  
+  *{
+    scroll-behavior: smooth;
+    animation-timing-function: linear;
+  }
