@@ -1,8 +1,8 @@
 
 .footer {
   z-index: 1;
-  --footer-background:#edd955;
-  background-color: #edd955;
+  --footer-background:#ffffff;
+  background-color: var(--footer-background);
   display: grid;
   position: relative;
   grid-area: footer;
