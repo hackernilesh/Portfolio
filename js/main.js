@@ -34,7 +34,6 @@
   window.addEventListener('load', () => {
     AOS.init({
       startEvent: 'DOMContentLoaded',
-      ease:"linear",
     })
   });
 
