@@ -1,12 +1,14 @@
 
 .footer {
   z-index: 1;
-  --footer-background:#ffffff;
+  --footer-background:#8fc9ff;
   background-color: var(--footer-background);
   display: grid;
-  position: relative;
+  position:absolute;
   grid-area: footer;
   min-height: 12rem;
+  margin-top: 100px;
+
 }
 .footer .bubbles {
   position: absolute;
@@ -16,6 +18,7 @@
   height: 1rem;
   background: var(--footer-background);
   filter: url("#blob");
+  animation-timing-function: linear;
 }
 .footer .bubbles .bubble {
   position: absolute;
@@ -25,6 +28,8 @@
   -webkit-animation: bubble-size var(--time, 4s) ease-in infinite var(--delay, 0s), bubble-move var(--time, 4s) ease-in infinite var(--delay, 0s);
           animation: bubble-size var(--time, 4s) ease-in infinite var(--delay, 0s), bubble-move var(--time, 4s) ease-in infinite var(--delay, 0s);
   transform: translate(-50%, 100%);
+  animation-timing-function: linear;
+
 }
 .footer .content {
   z-index: 2;
@@ -33,6 +38,7 @@
   grid-gap: 4rem;
   padding: 2rem;
   background: var(--footer-background);
+  
 }
 .footer .content a, body .footer .content p {
   color: #F5F7FA;

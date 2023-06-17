@@ -1,8 +1,4 @@
-/* 
-*{
-  overflow-x:hidden;
-  overflow-y:auto;
-} */
+
 html,body{
     overflow-x: hidden;
   }
@@ -23,6 +19,6 @@ html,body{
   }
    */
   *{
+    /* animation-timing-function:ease; */
     scroll-behavior: smooth;
-    animation-timing-function: linear;
   }

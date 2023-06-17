@@ -1,5 +1,7 @@
 
-
+body{
+  background-color: rgb(71, 0, 56);
+}
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -22,16 +24,16 @@
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #ffffff;
+  color: #000000;
 }
 #hero p {
-  color: #ffffff;
+  color: #000000;
   margin: 15px 0 0 0;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
 #hero p span {
-  color: #78beff;
+  color: #3ea2ff;
   letter-spacing: 1px;
 }
 #hero .social-links {
@@ -40,7 +42,7 @@
 #hero .social-links a {
   font-size: 40px;
   display: inline-block;
-  color: #00e1ff;
+  color: #009dff;
   line-height: 1;
   margin-right: 20px;
   transition: 0.3s;
@@ -78,6 +80,11 @@
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
+.block{
+  margin: 0px 0px;
+  padding: 0px 0px;
+
+}
 section {
   margin-top:20px;
   margin-bottom:20px;
@@ -173,6 +180,7 @@ section {
 .services .icon-box h4 a {
   color: #ffb300;
   transition: ease-in-out 0.3s;
+  z-index:100000;
 }
 .services .icon-box p {
   line-height: 24px;
@@ -256,7 +264,7 @@ section {
 #linkedin {
   font-size: 50px;
   background-color: #79797a70;
-  color: #fff;
+  color: #ffffff;
   border-radius: 290px;
   padding: 11px;
   animation: animate 3s linear infinite;
@@ -651,5 +659,4 @@ section {
 }
 .section{
   background-color: #000000;
-  z
 }

@@ -1,0 +1,28 @@
+/* 
+*{
+  overflow-x:hidden;
+  overflow-y:auto;
+} */
+html,body{
+    overflow-x: hidden;
+  }
+
+
+
+
+  [data-aos] {
+    pointer-events: none;
+  }
+  
+  [data-aos].aos-animate {
+    pointer-events: none;
+  }
+/*   
+  .aos-fix[data-aos][data-aos].aos-animate {
+    transform: unset;
+  }
+   */
+  *{
+    scroll-behavior: smooth;
+    animation-timing-function: linear;
+  }
